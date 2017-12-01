@@ -460,7 +460,7 @@ def bot(op):
                     try:
                         kc.kickoutFromGroup(op.param1,[op.param2])
                         kk.kickoutFromGroup(op.param1,[op.param2])
-                    except:
+                    except: 
                         try:
                             random.choice(KAC).kickoutFromGroup(op.param1,[op.param2])
                         except:
